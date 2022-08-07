@@ -1,0 +1,44 @@
+.main{
+
+   display: flex;
+   /* flex-direction:initial; */
+    height: 50px;
+     justify-content: center; 
+    width: 100%;
+  float: right;
+  background-color: brown;
+   color:white;
+}
+
+.main div{
+    margin: 25px;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+}
+
+.main div:hover{
+    color: black
+     
+}
+
+.heading{
+ 
+    background-color: brown;
+    /* flex-direction:initial; */
+    /* justify-content: flex-start; */
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+float: left;
+margin: 15px 0px 0px 40px;
+    /* margin-right: 1200px; */
+    
+    
+}
+
+.box{
+    display: flex;
+    height: fit-content;
+    background-color: brown;
+}
